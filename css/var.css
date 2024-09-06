@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 :root{
     --color-bg: #040718;
     --color-bg-two: #1A1D2C;
     --color-white: #F8FAF9;
+    --color-gray: #BCBEC1;
+
     --font-primary: "Inter", sans-serif;
+    --font-secundary: "Press Start 2P", system-ui;
 }
 

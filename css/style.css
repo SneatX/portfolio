@@ -17,6 +17,11 @@ body{
     outline: 2px solid var(--color-bg-two)
 }
 
+.highlight-text{
+    color: aqua;
+}
+
+
 .header{
     display: flex;
     justify-content: center;
@@ -48,6 +53,37 @@ body{
 .main-about_me{
     background: var(--color-bg-two);
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_me-info{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 0 0 50px;
+}
+
+.info-box1-welcome{
+    text-transform: uppercase;
+    color: var(--color-gray);
+    font-size: 1.5em;
+    font-family: var(--font-secundary);
+    margin-bottom: 30px;
+}
+
+.info-box1-name{
+    color: var(--color-white);
+    text-transform: capitalize;
+    font-size: 4em;
+}
+
+.info-box1-role{
+    text-transform: capitalize;
+    color: var(--color-gray);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 
