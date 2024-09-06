@@ -1,0 +1,63 @@
+@import url(./var.css);
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: var(--color-bg);
+    color: var(--color-white);
+    font-family: var(--font-primary);
+}
+
+.scorlledHeader{
+    background : var(--color-bg);
+    outline: 2px solid var(--color-bg-two)
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.header nav{
+    padding: 30px;
+    width: 40%;
+}
+
+
+.header ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50px;
+    transition: background-color 0.3s linear;
+}
+
+.header li{
+    text-align: center;
+    width: 100%;
+}
+
+.main-about_me{
+    background: var(--color-bg-two);
+    height: 100vh;
+}
+
+
+
+
+
+
+.main-section2{
+    height: 200vh;
+}
+
+
+
